@@ -1,0 +1,90 @@
+body {
+  background-color: rgba(180, 180, 180, 0.7);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(10, 109, 109, 1);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: rgba(220, 220, 220, 1);
+  padding: 30px;
+  box-shadow: 0px, 10px, 30px rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: rgba(210, 210, 210, 1)
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(180, 180, 180);
+}
+
+#banner {
+  background-image: url("https://images.pexels.com/photos/5007779/pexels-photo-5007779.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  background-position: bottom center;
+  height: 300px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  position:relative;
+  width: 500px;
+  margin: 20px auto;
+  padding: 80px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  #banner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  #banner {
+    height: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+  #banner {
+    height: 100px;
+  }
+}
